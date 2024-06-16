@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글쓰기</title>
+    <link rel="stylesheet" href="../write.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="nav">
+            <a href="../html/index.html"><img src="../img/로고.webp" alt=""></a>
+            <div id="main">
+                <div class="write_set">
+
+                    <h2>글쓰기</h2>
+
+                    <form id="writeFrm">
+                        <div class="rating_box">
+                            <div class="rating">    
+                                ★★★★★
+                                <span class="rating_star">★★★★★</span>
+                                <input name="rating" type="range" value="1" step="1" min="0" max="10">
+                            </div>
+                        </div>
+                        <div><input type="text" name="subject" id="" placeholder="제목"></input></div>
+                        <div><textarea name="content" id="" placeholder="내용"></textarea></div>
+                        <div><input type="text" name="writer" placeholder="작성자"></div>
+                        <input type="submit" value="리뷰 작성">
+                    </form>
+                    <a id="back" href="./list.html">뒤로가기</a>
+                    <script src="./write03.js"></script>
+                </div>
+            </div>
+        </div>
+        
+</body>
+
+</html>

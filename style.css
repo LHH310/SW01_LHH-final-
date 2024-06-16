@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Dokrip';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Dokrip.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Dokrip';
+    margin: 0;
+    padding: 0;
+}
+
+#wrap { 
+    height: 100vh;
+    background-color: #e8dcc9;
+}
+
+#nav {
+    text-align: center;
+    height: 15vh;
+    background-color: #017152;
+}
+
+#nav img {
+    height: 15vh;
+}
+
+#main {
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#map1, #map2, #map3 {
+    
+    width: 55vh;
+    height: 45vh;
+}
+.map_container {
+    text-align: center;
+}
+
+#thum_busan {
+    width: 450px;
+}
+
+#busan {
+    text-align: center;
+    font-size: 20px;
+}
+
+#busan2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#busan3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#edong {
+    text-align: center;
+    font-size: 25px;
+    position: absolute; 
+    bottom: 30px; 
+    width: 100%; 
+}
+
+#youlink {
+    text-decoration-line: none;
+}
+
+@keyframes blink-effect {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink {
+    margin: 0;
+    animation: blink-effect 1s step-end infinite;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #017152;
+    text-decoration: underline;
+    background-color: #e8dcc9;
+    transition: all 0.3s ease;
+}
